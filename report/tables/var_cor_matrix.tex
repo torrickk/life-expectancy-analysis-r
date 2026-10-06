@@ -1,0 +1,20 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+caption={Pairwise Pearson correlations, 1997 (142 countries) \label{tab:correlations}},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+colspec={Q[]Q[]Q[]Q[]Q[]},
+hline{2}={1-5}{solid, black, 0.05em},
+hline{1}={1-5}{solid, black, 0.08em},
+hline{6}={1-5}{solid, black, 0.08em},
+column{1}={}{halign=l},
+column{2-5}={}{halign=r},
+}                     %% tabularray inner close
+& Life expectancy & GDP per capita & Population & GDP \\
+Life expectancy & 1 & . & . & . \\
+GDP per capita & \num{.70} & 1 & . & . \\
+Population & \num{.05} & \num{-.05} & 1 & . \\
+GDP & \num{.25} & \num{.37} & \num{.43} & 1 \\
+\end{talltblr}
+\end{table}

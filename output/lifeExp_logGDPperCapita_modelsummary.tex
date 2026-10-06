@@ -1,0 +1,35 @@
+\begin{table}
+\centering
+\begin{talltblr}[         %% tabularray outer open
+caption={OLS regression of life expectancy on log GDP per capita and continent, 1997 \label{tab:model1}},
+note{}={+ p \num{< 0.1}, * p \num{< 0.05}, ** p \num{< 0.01}, *** p \num{< 0.001}},
+note{ }={Reference continent: Africa. Standard errors in parentheses.},
+]                     %% tabularray outer close
+{                     %% tabularray inner open
+width={0.7\linewidth},
+colspec={X[]X[]},
+hline{2}={1-2}{solid, black, 0.05em},
+hline{14}={1-2}{solid, black, 0.05em},
+hline{1}={1-2}{solid, black, 0.08em},
+hline{17}={1-2}{solid, black, 0.08em},
+column{2}={}{halign=c},
+column{1}={}{halign=l},
+}                     %% tabularray inner close
+& Life expectancy \\
+Constant & \num{12.629}*** \\
+& (\num{3.353}) \\
+log(GDP per capita) & \num{5.603}*** \\
+& (\num{0.449}) \\
+Americas & \num{9.050}*** \\
+& (\num{1.386}) \\
+Asia & \num{7.950}*** \\
+& (\num{1.219}) \\
+Europe & \num{8.669}*** \\
+& (\num{1.555}) \\
+Oceania & \num{9.083}* \\
+& (\num{3.783}) \\
+Observations & \num{142} \\
+R² & \num{0.823} \\
+Adjusted R² & \num{0.816} \\
+\end{talltblr}
+\end{table}

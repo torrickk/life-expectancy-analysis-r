@@ -1,0 +1,22 @@
+# R
+.RData
+.Rhistory
+.Rproj.user/
+Rplots.pdf
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+report/main.pdf
+
+# macOS
+.DS_Store
