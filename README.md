@@ -71,3 +71,7 @@ cd report && lualatex main && bibtex main && lualatex main && lualatex main
 ## Author
 
 Nikita Zhdanov
+
+## License
+
+[MIT](LICENSE) © 2026 Nikita Zhdanov
